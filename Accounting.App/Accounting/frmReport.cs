@@ -146,9 +146,9 @@ namespace Accounting.App
                     item.Cells[3].Value.ToString()
                     );
             }
-            stiPrint.Load(Application.StartupPath + "/Report.mrt");
-            stiPrint.RegData("DT", dtPrint);
-            stiPrint.Show();
+            StiPrint.Load(Application.StartupPath + "/Report.mrt");
+            StiPrint.RegData("DT", dtPrint);
+            StiPrint.Show();
             
         }
     }
